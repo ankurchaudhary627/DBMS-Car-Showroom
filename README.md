@@ -10,3 +10,5 @@ Installation steps:
 6. Run the wampp server
 7. Type http://localhost/carshowroom/ for seeing the available cars and booking the cars ( i.e. Customer)
 8. Type http://localhost/carshowroom/admin/admin.php for the admin login
+
+PS : Delete README.md file after cloning
