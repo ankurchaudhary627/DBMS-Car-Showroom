@@ -20,7 +20,7 @@ body {
 .form-v2-content  {
 	background: rgb(134, 186, 235);
 	width: 750px;
-	height: 820px;
+	height: 400px;
 	border-color: rgb(5, 44, 83);
 	border-width: 10px;
 	border-radius: 15px;
@@ -40,7 +40,7 @@ body {
 .form-v2-content .form-left img {
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
-	height: 820px;
+	height: 400px;
 	width: 1200px;
 }
 
