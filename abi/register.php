@@ -80,7 +80,7 @@
 					<input type="password" name="confirm_password" class="input-text" id="confirm_password" class="input-text" required>
 				</div>
 				<div class="form-row-last">
-					<input type="submit" name="register" class="register" value="Register">
+					<input href="login.php" type="submit" name="register" class="register" value="Register">
 				</div>
 			</form>
 		</div>
