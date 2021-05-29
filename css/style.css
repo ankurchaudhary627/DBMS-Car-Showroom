@@ -1069,7 +1069,7 @@ font-size: 1.5em;
 	padding:7px 20px;
 	color:#FFF;
 	cursor:pointer;
-	background:#180666; url(../images/large-button-overlay.png);
+	background:#180666;
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
