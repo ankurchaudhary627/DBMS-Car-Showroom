@@ -1,20 +1,3 @@
-
-<?php
-    session_start();
-
-if(!isset($_SESSION["s_name"]))
-{
-    header("location: login.php");
-}
-?>
-
-
-
-
-
-
-<!DOCTYPE HTML>
-<html>
 <head>
 	<meta charset="utf-8">
 	<title></title>
@@ -38,11 +21,6 @@ if(!isset($_SESSION["s_name"]))
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
 </head>
-
-
-
-
-
 <body>
 <div class="navbar navbar-expand-lg bg-dark navbar-dark">
 	<div class="container-fluid">
@@ -53,13 +31,24 @@ if(!isset($_SESSION["s_name"]))
 
 		<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
 			<div class="navbar-nav ml-auto">
+				<?php
+                			if(isset($_SESSION['s_name'])){
+                			    echo '<a href="indexlogin.php" class="nav-item nav-link">Home</a>';
+                			    echo '<a href="services.php" class="nav-item nav-link active">Brands</a>';
+                                echo '<a href="booking.php" class="nav-item nav-link">Booking</a>';
+                                echo '<a href="orders.php" class="nav-item nav-link">Orders</a>';
+                                echo '<a href="logout.php" class="nav-item nav-link">Logout</a>';
 
-                			<a href="indexlogin.php" class="nav-item nav-link active">Home</a>
-                			<a href="services.php" class="nav-item nav-link active">Brands</a>
-                            <a href="booking.php" class="nav-item nav-link">Booking</a>
-                            <a href="orders.php" class="nav-item nav-link">Orders</a>
-                            <a href="logout.php" class="nav-item nav-link">Logout</a>
-                            <a class="nav-item nav-link"> Welcome  <?=$_SESSION['s_name'];?> !! </a>
+                			} else {
+                			                echo '<a href="index.php" class="nav-item nav-link">Home</a>';
+                            				echo '<a href="about.html" class="nav-item nav-link">About</a>';
+                            				echo '<a href="services.php" class="nav-item nav-link active">Brands</a>';
+                            				echo '<a href="contact.php" class="nav-item nav-link">Contact</a>';
+                            				echo '<a href="login.php" class="nav-item nav-link">LogIn</a>';
+                            				echo '<a href="register.php" class="nav-item nav-link">Register</a>';
+                			}
+                			?>
+
 			</div>
 		</div>
 	</div>
@@ -73,45 +62,4 @@ if(!isset($_SESSION["s_name"]))
 		</div>
 	</div>
 </div>
-
-
-
-
-
-
-
-
-<div class="main-content">
-	<div class="wrap">
-		<div class="main-box">
-		   <div class="box_wrapper"><h1>Welcome to your Account!</h1></div>
-					
-		</div>
-	</div>
-</div>
-
-
-
-<br><br>
-<?php include "./footer.html"?>
-
 </body>
-</html>
-        
-        
-        
- 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-    	
-    	
-            

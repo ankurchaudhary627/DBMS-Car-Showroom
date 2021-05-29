@@ -1,69 +1,59 @@
-
-
-
-
-
-
-
-
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Car Showroom</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+	<title></title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Free Website Template" name="keywords">
+	<meta content="Free Website Template" name="description">
+
+	<!-- Template Stylesheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/header.css" rel="stylesheet" type="text/css" media="all" />
+
+	<!-- CSS Libraries -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+	<link href="lib/animate/animate.min.css" rel="stylesheet">
+	<link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
 </head>
-
-
-
-
 
 <body>
 
 
-<div class="header">	
-<div class="wrap"> 
-	<div class="header-bot">
-		 <div class="logo">
-			 <a href="index.html"><img src="images/logo.png" alt="" style ="width:450px; height: 160px;"></a>
-		 </div>
-		 
-		 
-		 <div class="cart">
-			
-            
-		    <div class="menu-main">
-		    
-			   <ul class="dc_css3_menu">
-					 <li class="active"><a href="index.php">Home</a></li>
-					 <li><a href="about.html">About</a></li>
-					 <li><a href="services.php">Brands</a></li>
-					 <li><a href="contact.php">Contact</a></li>
-                     <li><a href="login.php">Login</a></li>
-                     <li><a href="register.php">Signup</a></li>
-                     
-		     	</ul>
-                
-			 <div class="clear"></div>
-			</div>	
-						
-		</div>	
-		
-		
-		<div class="clear"></div> 
-	   </div>
-	  </div>	
-</div>
+<div class="navbar navbar-expand-lg bg-dark navbar-dark">
+	<div class="container-fluid">
+		<a href="index.php" class="navbar-brand">Auto Express</a>
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
+		<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+			<div class="navbar-nav ml-auto">
+				<a href="index.php" class="nav-item nav-link active">Home</a>
+				<a href="about.html" class="nav-item nav-link">About</a>
+				<a href="services.php" class="nav-item nav-link">Brands</a>
+				<a href="contact.php" class="nav-item nav-link">Contact</a>
+				<a href="login.php" class="nav-item nav-link">LogIn</a>
+				<a href="register.php" class="nav-item nav-link">Register</a>
+
+			</div>
+		</div>
+	</div>
+</div>
 
 
 <div class="main">
 	<div class="content-box1">
 		<div class="wrap">
 			<div class="banner2">
-		                
+
 	      			</div>
 			</div>
 	</div>
@@ -131,47 +121,7 @@
 </div>
 
 <br><br>
-<div class="footer">
-	<div class="wrap">
-	   <div class="footer-top">			
-				
-				
-				
-				
-				<div class="col_1_of_5 span_1_of_5">
-					<div class="footer-grid twitts">
-					<h3>Our Company</h3>
-						<div class="f_menu">
-							 <ul>
-						          <li>This is a CAR selling dealer</li>
-						     	  <li>Please read our Terms and Conditions </li>
-						     </ul>
-						</div>
-				   </div>
-				</div>
-								
-				
-				
-				<div class="col_1_of_5 span_1_of_5">
-					<div class="footer-grid twitts">
-						<h3>Get in touch</h3>
-						<ul class="follow_icon">
-							<li><a href="https://www.google.com" style="opacity: 1;"><img src="images/follow_icon.png" alt=""></a></li>
-							<li><a href="#" style="opacity: 1;"><img src="images/follow_icon1.png" alt=""></a></li>
-							<li><a href="#" style="opacity: 1;"><img src="images/follow_icon2.png" alt=""></a></li>
-							<li><a href="#" style="opacity: 1;"><img src="images/follow_icon3.png" alt=""></a></li>
-							<li><a href="#" style="opacity: 1;"><img src="images/follow_icon4.png" alt=""></a></li>
-							<li><a href="#" style="opacity: 1;"><img src="images/follow_icon5.png" alt=""></a></li>
-						</ul>
-						<p>+1 111-111-1111</p>
-						<span>support@autoexpress.com</span>
-					</div>
-				</div>
-				
-				<div class="clear"></div>
-		</div>
-	</div>
-</div>
+<?php include "./footer.html"?>
 
 </body>
 </html>
