@@ -1,9 +1,8 @@
-
 <!DOCTYPE HTML>
 <html>
 <head>
 <title></title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style_home.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
@@ -38,10 +37,10 @@
 		<div class="single">
 			<div class="heading">
 				<h3>Contact Us</h3>
-				<p>If you have any query, please contact us by filling the form below .
+				<p >If you have any query, please contact us by filling the form below .
 				    We will respond you as soon as posible!  </p>
 			</div>
-			<div class="section group">
+			<div class="section group" >
 				<div class="col span_2_of_contact">
 				  <div class="contact-form">
 				  
@@ -65,18 +64,7 @@
 					    </form>
 				  </div>
   				</div>
-				<div class="col span_1_of_3">
-				  <div class="company_address">
-				     	<h3>Address</h3>
-						    	<p>CMR Institute of Technology</p>
-						   		<p>Kundanhalli Gate, ITPL road,</p>
-						   		<p>Banglore</p>
-				   		<p>Phone:(00) 111 222 333</p>
-				   		<p>Fax: (000) 000 00 00 0</p>
-				 	 	<p>Email: <span>info@autoexpress.com</span></p>
-				   		<p>Follow on: <span>Facebook</span>, <span>Twitter</span></p>
-				    </div>
-				 </div>
+				
 				 <div class="clear"></div> 
 				
 			  </div>

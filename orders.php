@@ -87,7 +87,7 @@ if(!isset($_SESSION["s_name"]))
                         
                        </tr>
                               <?php
-                                    $db=mysqli_connect("localhost","root","root","car_showroom");
+                                    $db=mysqli_connect("localhost:3307","root","","car_showroom");
                                     $cname = $_SESSION["s_name"];
 
                                     // to get the customerid from his name  

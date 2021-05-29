@@ -53,18 +53,6 @@
 
 
 
-<div class="main">
-	<div class="content-box1">
-		<div class="wrap">
-			<div class="banner2">
-		                
-	      			</div>
-			</div>
-	</div>
-</div>
-
-
-
 
 <div class="main-content">
 	<div class="wrap">

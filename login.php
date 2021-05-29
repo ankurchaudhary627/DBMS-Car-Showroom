@@ -3,11 +3,11 @@ session_start();
 
 if(isset($_POST["login"])){
 
-if(!empty($_POST['useremail']) && !empty($_POST['pass'])) {
+if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
     
-	$useremail=$_POST['useremail'];
-	$pass=$_POST['pass'];
-    $db = mysqli_connect("localhost","root","root","car_showroom");
+	$useremail=$_POST['your_email'];
+	$pass=$_POST['psw'];
+    $db = mysqli_connect("localhost:3307","root","","car_showroom");
     
 	$query=mysqli_query($db,"SELECT * FROM customer WHERE email= '".$useremail."' AND pass='".$pass."'");
     
@@ -53,106 +53,83 @@ if(!empty($_POST['useremail']) && !empty($_POST['pass'])) {
 
 
 
-
-
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-<title></title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
+	<title>Car Showroom</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/roboto-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/line-awesome/css/line-awesome.min.css">
+	<!-- Jquery -->
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style_log.css"/>
 </head>
-<body>
-
-<div class="header">	
-<div class="wrap"> 
-	<div class="header-bot">
-		 <div class="logo">
-			 <a href="index.html"><img src="images/logo.png" alt="" style ="width:450px; height: 160px;"></a>
-		 </div>
-		 
-		 
-		 <div class="cart">
-			
-            
-		    <div class="menu-main">
-		    
-			   <ul class="dc_css3_menu">
-					 <li class="active"><a href="index.php">Home</a></li>
-					 <li><a href="about.html">About</a></li>
-					 <li><a href="services.php">Brands</a></li>
-					 <li><a href="contact.php">Contact</a></li>
-                     <li><a href="login.php">Login</a></li>
-                     <li><a href="register.php">Signup</a></li>
-                     
-		     	</ul>
-                
-			 <div class="clear"></div>
-			</div>	
+<body class="form-v2">
+	<div class="header">	
+		<div class="wrap"> 
+			<div class="header-bot">
+				 <div class="logo">
+					 <a href="index.html"><img src="images/logo.png" alt="" style="width:450px; height: 160px;"></a>
+				 </div>
+				 
+				 
+				 <div class="cart">
+					
+					
+					<div class="menu-main">
+					
+					   <ul class="dc_css3_menu">
+							 <li class="active"><a href="index.php">Home</a></li>
+							 <li><a href="about.html">About</a></li>
+							 <li><a href="services.php">Brands</a></li>
+							 <li><a href="contact.php">Contact</a></li>
+							 <li><a href="login.php">Login</a></li>
+							 <li><a href="register.php">Signup</a></li>
+						 </ul>
 						
-		</div>	
-		
-		
-		<div class="clear"></div> 
-	   </div>
-	  </div>	
-</div>
-<div class="header-bottom">
-	<div class="wrap">
-		<div class="page-not-found">
-		<div class="text-center">
-          <h2>SIGN IN
-          </h2>
-        </div>
-      
-        <div class="container-fluid row">
-          
-            <div class="col-md-3"></div>
-          
-      
-          <div class="col-md-6">
-        <form class="text-center" action="login.php" method="post" >            
-            <div ><br/>
-               <label>Email</label>
-      <input type="text" class="form-control transparent-input" size="50" placeholder="YOUR EMAIL" name="useremail" required >
-             </div>
- 
-            <div ><br/>
-               <label>PASSWORD</label>
-      <input type="password" class="form-control transparent-input" size="50" placeholder="PASSWORD PLEASE" name="pass" required >
-             </div> 
-            <div><br/>
-                <button type="submit" class="btn btn-warning" value="login" name="login">Sign in</button>
-             </div>
-         </form>     
-          </div>
-          
-            <div class="col-md-3"></div>
-        
-        </div> 
+					 <div class="clear"></div>
+					</div>	
+								
+				</div>	
+				
+				
+				<div class="clear"></div> 
+			   </div>
+			  </div>	
+		</div>
+
+	<div class="page-content">
+		<div class="form-v2-content">
+			<div class="form-left">
+				<img src="images/login.jpg" alt="form">
+			</div>
+			<form class="form-detail" action="#" method="post" id="myform">
+				<h2>SIGN IN</h2>
+				
+				<div class="form-row">
+					<label for="your_email">Your Email:</label>
+					<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+				</div>
+								
+				<div class="form-row">
+					<label for="password">Password:</label>
+					<input type="password" id="psw" name="psw" class="input-text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+
+				
+				<div class="form-row-last">
+					<input href="home.php" type="submit" name="login" class="register" value="Sign In">
+				</div>
+			</form>
 		</div>
 	</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="footer">
+    </div>
+	
+	
+    <div class="footer">
 	<div class="wrap">
 	   <div class="footer-top">				
 				<div class="col_1_of_5 span_1_of_5">
@@ -187,9 +164,9 @@ if(!empty($_POST['useremail']) && !empty($_POST['pass'])) {
 	</div>
 </div>		
 
-</body>
-</html>
 
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
     	
     	
             
