@@ -396,7 +396,7 @@ span.actual {
 }
 .Details a:hover {
     color:white;
-	background:#555;
+	background:#3356b0;
 	border-right:1px solid #555;
 	text-decoration: none;
 -webkit-transition: all 0.3s;
@@ -1078,7 +1078,7 @@ font-size: 1.5em;
     font-size:20px;
 }
 .contact-form input[type="submit"]:hover{
-	background-color:#333;
+	background-color:#3356b0;
 }
 .contact-form input[type="submit"]:active{
 	background-color:#333;  

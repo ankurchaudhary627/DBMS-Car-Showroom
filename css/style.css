@@ -396,7 +396,7 @@ span.actual {
 }
 .Details a:hover {
     color:white;
-	background:grey;
+	background:#3356b0;
 	border-right:1px solid #555;
 	text-decoration: none;
 -webkit-transition: all 0.3s;
@@ -607,7 +607,7 @@ p.txt_4 {
 	width: 51.1%;
 }
 .span_2_of_3 h3 {
-	color:#180666;;
+	color:#180666;
 	margin-bottom: 0.3em;
 	font-size: 1.2em;
 	font-weight: normal;

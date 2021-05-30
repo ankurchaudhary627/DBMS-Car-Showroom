@@ -112,15 +112,15 @@ if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
 	</div>
 </div>
 
-	<div class="page-content">
-		<div class="form-v2-content">
+	<div class="page-content" style = "width:30%; margin:10px 20px 5px 200px;">
+		<div class="form-v2-content" style="border: 5px inset grey; border-radius:9px">
 
 			<form class="form-detail" action="#" method="post" id="myform">
 				<h2>SIGN IN</h2>
 				
 				<div class="form-row">
 					<label for="your_email">Your Email:</label>
-					<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+					<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder = "support@autoexpress.com">
 				</div>
 								
 				<div class="form-row">
@@ -134,6 +134,11 @@ if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
 			</form>
 		</div>
 	</div>
+
+</div>
+				<img src="./images/login_car.png" height="60%" width="60%" style="position:absolute; left:650px ; top:150px">
+
+		</div>
     </div> 
 
 
@@ -141,7 +146,7 @@ if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
 
 
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 </html>
     	
     	
