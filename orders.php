@@ -25,39 +25,33 @@ if(!isset($_SESSION["s_name"]))
 </head>
 <body>
 
-<div class="header">	
-<div class="wrap"> 
-	<div class="header-bot">
-		 <div class="logo">
-			 <a href="index.html"><img src="images/logo.png" alt="" style="width:450px; height: 160px;"></a>
-		 </div>
-		 
-		 
-		 <div class="cart">
-			
-           <div>
-             <h3> Welcome <?=$_SESSION['s_name'];?> !! </h3>
-		 </div>
-            
-		    <div class="menu-main">
-		    
-			   <ul class="dc_css3_menu">
-					<li class="active"><a href="indexlogin.php">Home</a></li>
-                    <li><a href="services.php">Brands</a></li>
-                     <li><a href="booking.php">Book</a></li>
-                     <li><a href="orders.php">Orders</a></li>
-                     <li><a href="logout.php">Logout</a></li>
-		     	</ul>
-                
-			 <div class="clear"></div>
-			</div>	
-						
-		</div>	
-		
-		
-		<div class="clear"></div> 
-	   </div>
-	  </div>	
+<div class="navbar navbar-expand-lg bg-dark navbar-dark">
+	<div class="container-fluid">
+		<a href="index.php" class="navbar-brand">Auto Express</a>
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+			<div class="navbar-nav ml-auto">
+
+                			<a href="indexlogin.php" class="nav-item nav-link ">Home</a>
+                			<a href="services.php" class="nav-item nav-link ">Brands</a>
+                            <a href="booking.php" class="nav-item nav-link active">Booking</a>
+                            <a href="orders.php" class="nav-item nav-link">Orders</a>
+                            <a href="logout.php" class="nav-item nav-link">Logout</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="content-box1">
+		<div class="wrap">
+			<div class="banner2">
+
+			</div>
+		</div>
+	</div>
 </div>
 <div class="header-bottom">
 	<div class="wrap">
@@ -87,7 +81,7 @@ if(!isset($_SESSION["s_name"]))
                         
                        </tr>
                               <?php
-                                    $db=mysqli_connect("localhost:3307","root","","car_showroom");
+                                    $db=mysqli_connect("localhost","root","","car_showroom");
                                     $cname = $_SESSION["s_name"];
 
                                     // to get the customerid from his name  

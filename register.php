@@ -260,7 +260,7 @@
 
 
 <?php 
-$db=mysqli_connect("localhost:3307","root","","car_showroom");
+$db=mysqli_connect("localhost","root","","car_showroom");
 
 // REGISTER USER
 if(isset($_POST['reg'])) 

@@ -55,7 +55,7 @@ if(!isset($_SESSION["s_name"]))
 			<div class="navbar-nav ml-auto">
 
                 			<a href="indexlogin.php" class="nav-item nav-link active">Home</a>
-                			<a href="services.php" class="nav-item nav-link active">Brands</a>
+                			<a href="services.php" class="nav-item nav-link">Brands</a>
                             <a href="booking.php" class="nav-item nav-link">Booking</a>
                             <a href="orders.php" class="nav-item nav-link">Orders</a>
                             <a href="logout.php" class="nav-item nav-link">Logout</a>
@@ -74,21 +74,78 @@ if(!isset($_SESSION["s_name"]))
 	</div>
 </div>
 
-
-
-
-
-
-
-
 <div class="main-content">
 	<div class="wrap">
 		<div class="main-box">
-		   <div class="box_wrapper"><h1>Welcome to your Account!</h1></div>
-					
+		   <div class="box_wrapper"><h1>Car Brands In Our Showroom</h1></div>
+			<div class="section group">
+
+				<div class="col_1_of_4 span_1_of_4">
+					<img src="images/Toyota.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<div class="grid_desc">
+						<p class="title">TOYOTA</p>
+					</div>
+					<div class="Details">
+				     <a href="toyota.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				</div>
+
+
+				 <div class="col_1_of_4 span_1_of_4">
+					<img src="images/audi.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<div class="grid_desc">
+						<p class="title">AUDI</p>
+					</div>
+					<div class="Details">
+				     <a href="audi.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				</div>
+
+
+				 <div class="col_1_of_4 span_1_of_4">
+					<img src="images/bmw.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<div class="grid_desc">
+						<p class="title">BMW</p>
+					</div>
+					<div class="Details">
+				     <a href="bmw.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				</div>
+
+
+				 <div class="col_1_of_4 span_1_of_4">
+					<img src="images/Chevrolet.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<div class="grid_desc">
+						<p class="title">CHEVROLET</p>
+					</div>
+					<div class="Details">
+				     <a href="chervolet.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				</div>
+
+				<div class="col_1_of_4 span_1_of_4">
+					<img src="images/Aston%20Martin.png" alt="" style="width: 300px; height: 200px;"/>
+					<div class="grid_desc">
+						<p class="title">ASTON MARTIN</p>
+					</div>
+					<div class="Details">
+				     <a href="aston%20martin.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				</div>
+
+				<div class="col_1_of_4 span_1_of_4">
+					<img src="images/Mitsubishi.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<div class="grid_desc">
+						<p class="title">MITSUBISHI</p>
+					</div>
+					<div class="Details">
+				     <a href="mitsubishi.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				</div>
+
+
+				<div class="clear"></div>
+			</div>
+
+
 		</div>
 	</div>
 </div>
+
 
 
 

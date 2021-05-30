@@ -7,7 +7,7 @@ if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
     
 	$useremail=$_POST['your_email'];
 	$pass=$_POST['psw'];
-    $db = mysqli_connect("localhost:3307","root","","car_showroom");
+    $db = mysqli_connect("localhost","root","","car_showroom");
     
 	$query=mysqli_query($db,"SELECT * FROM customer WHERE email= '".$useremail."' AND pass='".$pass."'");
     

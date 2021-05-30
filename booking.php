@@ -95,12 +95,11 @@ if(isset($_POST['book']))
 		<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
 			<div class="navbar-nav ml-auto">
 
-                			<a href="indexlogin.php" class="nav-item nav-link active">Home</a>
-                			<a href="services.php" class="nav-item nav-link active">Brands</a>
-                            <a href="booking.php" class="nav-item nav-link">Booking</a>
+                			<a href="indexlogin.php" class="nav-item nav-link ">Home</a>
+                			<a href="services.php" class="nav-item nav-link ">Brands</a>
+                            <a href="booking.php" class="nav-item nav-link active">Booking</a>
                             <a href="orders.php" class="nav-item nav-link">Orders</a>
                             <a href="logout.php" class="nav-item nav-link">Logout</a>
-                            <a class="nav-item nav-link"> Welcome  <?=$_SESSION['s_name'];?> !! </a>
 			</div>
 		</div>
 	</div>
