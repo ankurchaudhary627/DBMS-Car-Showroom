@@ -67,62 +67,65 @@
 		<div class="main-box">
 		   <div class="box_wrapper"><h1>Car Brands In Our Showroom</h1></div>
 			<div class="section group">
-			
+
+			<div>
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/Toyota.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<img src="images/Toyota.jpg" alt="" style="width: 100%; height: 200px;"/>
 					<div class="grid_desc">
 						<p class="title">TOYOTA</p>
 					</div>
 					<div class="Details">
-				     <a href="toyota.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				     <a href="toyota.php"  class="button">cars<span></span></a></div>
 				</div>
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/audi.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<img src="images/audi.jpg" alt="" style="width: 100%; height: 200px;"/>
 					<div class="grid_desc">
 						<p class="title">AUDI</p>
 					</div>
 					<div class="Details">
-				     <a href="audi.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				     <a href="audi.php" class="button">cars<span></span></a></div>
 				</div>
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/bmw.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<img src="images/bmw.jpg" alt="" style="width: 100%; height: 200px;"/>
 					<div class="grid_desc">
 						<p class="title">BMW</p>
 					</div>
 					<div class="Details">
-				     <a href="bmw.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				     <a href="bmw.php"  class="button">cars<span></span></a></div>
 				</div>
-				
-				
+
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/Chevrolet.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<img src="images/Chevrolet.jpg" alt="" style="width: 100%; height: 200px;"/>
 					<div class="grid_desc">
 						<p class="title">CHEVROLET</p>
 					</div>
 					<div class="Details">
-				     <a href="chervolet.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				     <a href="chervolet.php" class="button">cars<span></span></a></div>
+				</div>
 				</div>
 
+                <div>
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/Aston%20Martin.png" alt="" style="width: 300px; height: 200px;"/>
+					<img src="images/aston.png" alt="" style="width: 100%; height: 200px;"/>
 					<div class="grid_desc">
 						<p class="title">ASTON MARTIN</p>
 					</div>
 					<div class="Details">
-				     <a href="aston%20martin.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				     <a href="aston%20martin.php"  class="button">cars<span></span></a></div>
 				</div>
 
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/Mitsubishi.jpg" alt="" style="width: 300px; height: 200px;"/>
+					<img src="images/Mitsubishi.jpg" alt="" style="width: 100%; height: 200px;"/>
 					<div class="grid_desc">
 						<p class="title">MITSUBISHI</p>
 					</div>
 					<div class="Details">
-				     <a href="mitsubishi.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">cars<span></span></a></div>
+				     <a href="mitsubishi.php"  class="button">cars<span></span></a></div>
+				</div>
 				</div>
 				
 				

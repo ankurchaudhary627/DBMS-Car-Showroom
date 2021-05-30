@@ -148,11 +148,11 @@
 	</div>
 </div>
 <div class="header-bottom">
-	<div class="wrap">
-		<div class="single">
+	<div class="wrap" style = "width:35%; margin:15px 20px 40px 600px;">
+		<div class="single"  style="border: 5px inset grey; border-radius:9px">
 			<div class="heading">
-				<h3>Contact Us</h3>
-				<p >If you have any query, please contact us by filling the form below .
+				<h2 style="color:#343a40 ; font-weight:900 ; font-size:50px">Contact Us</h2>
+				<p style = "font-size:20px; width:500px; font-family:Garamond,Times New Roman,Georgia ; margin-left:28px;">If you have any query, please contact us by filling the form below .
 				    We will respond you as soon as posible!  </p>
 			</div>
 			<div class="section group" >
@@ -161,22 +161,22 @@
 				  
 					    <form method="post" action="contact.php">
 					    	<div>
-						    	<span><label>Name</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
+						    	<span style="font-size:20px"><label>Name :-</label></span>
+						    	<span style="font-size:20px"><input name="userName" type="text" class="textbox" placeholder="John" style="width:90%"></span>
 						    </div>
 						    <div>
-						    	<span><label>E-Mail</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
+						    	<span  style="font-size:20px"><label>E-Mail :-</label></span>
+						    	<span style="font-size:20px"><input name="userEmail" type="text" class="textbox" placeholder="support@autoexpress.com" style="width:90%"></span>
 						    </div>
 						    
 						    <div>
-						    	<span><label>SUBJECT</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
+						    	<span  style="font-size:20px"><label>SUBJECT :-</label></span>
+						    	<span style="font-size:20px"><textarea name="userMsg" placeholder="Text Area" style="width:90%"> </textarea></span>
 						    </div>
 						   <div>
-                           <a href="#myModal" class="trigger-btn" data-toggle="modal">
+                           <a href="#myModal" class="trigger-btn" data-toggle="modal" >
 						   		<span><input type="submit" value="Submit"></span>
-</a>
+                            </a>
 						  </div>
                           <div id="myModal" class="modal fade">
 								<div class="modal-dialog modal-confirm">
@@ -195,7 +195,8 @@
 										</div>
 									</div>
 								</div>
-						</div>  
+						</div>
+
 
 					    </form>
 				  </div>

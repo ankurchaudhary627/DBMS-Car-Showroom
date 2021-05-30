@@ -4,7 +4,9 @@ body {
 .page-content {
 	width: 100%;
 	margin:  0 auto;
-	background-image: url("../images/background.jpg");
+/*
+	background-image: url("../images/grey2.png");
+*/
     background-repeat: no-repeat;
     background-size:cover;
 	display: -webkit-flex;
@@ -661,7 +663,7 @@ span.actual {
 	text-decoration: none;
 -webkit-transition: all 0.3s;
 -moz-transition: all 0.3s;
-transition: all 0.3s;
+transition: all 0.3s;box_wrapper
 }
 .box_wrapper {
 	padding: 10px 17px 10px 15px;
@@ -669,7 +671,7 @@ transition: all 0.3s;
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 21px;
-	color: #fff;
+	color: rgb(52, 58, 64);
 	border-bottom: 1px solid #D0D0D0;
 	border-right: 1px solid #A61C1A;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);

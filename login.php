@@ -111,20 +111,10 @@ if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
 		</div>
 	</div>
 </div>
-<div class="main">
-	<div class="content-box1">
-		<div class="wrap">
-			<div class="banner2">
 
-			</div>
-		</div>
-	</div>
-</div>
 	<div class="page-content">
 		<div class="form-v2-content">
-			<div class="form-left">
-				<img src="images/login.jpg" alt="form">
-			</div>
+
 			<form class="form-detail" action="#" method="post" id="myform">
 				<h2>SIGN IN</h2>
 				

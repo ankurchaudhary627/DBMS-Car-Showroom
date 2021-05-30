@@ -29,17 +29,17 @@ session_start();
 			<div class="section group">
 			
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/p-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/p-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Land Cruiser Prado</p>
 					</div>
 					<div class="Details">
-				     <a href="toyota%20prado.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button">Details<span></span></a></div>
+				     <a href="toyota%20prado.php" title="Lorem ipsum dolor sit amet, consect etuer" class="button" >Details<span></span></a></div>
 				</div>
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/fortuner.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/fortuner.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Fortuner</p>
 					</div>
@@ -49,7 +49,7 @@ session_start();
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/camry.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/camry.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Camry</p>
 					</div>
@@ -59,7 +59,7 @@ session_start();
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/e-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/e-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Etios Cross</p>
 					</div>
@@ -74,7 +74,7 @@ session_start();
 			<div class="section group">
 			
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/InnovaCrysta.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/InnovaCrysta.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Innova Crysta</p>
 					</div>

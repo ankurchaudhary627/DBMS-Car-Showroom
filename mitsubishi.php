@@ -29,7 +29,7 @@ session_start();
 			<div class="section group">
 			
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/ce-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/ce-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Cedia</p>
 					</div>
@@ -39,7 +39,7 @@ session_start();
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/l-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/l-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Lancer</p>
 					</div>
@@ -49,7 +49,7 @@ session_start();
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/mo-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/mo-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Montero</p>
 					</div>
@@ -59,7 +59,7 @@ session_start();
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/o-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/o-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Outlander</p>
 					</div>
@@ -74,7 +74,7 @@ session_start();
 			<div class="section group">
 			
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/pa-3.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/pa-3.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">Pajero Sports</p>
 					</div>

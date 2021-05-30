@@ -29,7 +29,7 @@ session_start();
 			<div class="section group">
 			
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/db-1.jpeg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/db-1.jpeg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">DB11</p>
 					</div>
@@ -39,7 +39,7 @@ session_start();
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/r-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/r-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">RAPIDE</p>
 					</div>
@@ -49,7 +49,7 @@ session_start();
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/v-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/v-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">VANQUISH</p>
 					</div>
@@ -59,7 +59,7 @@ session_start();
 				
 				
 				 <div class="col_1_of_4 span_1_of_4">
-					<img src="images/va-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/va-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">VANTAGE</p>
 					</div>
@@ -74,7 +74,7 @@ session_start();
 			<div class="section group">
 			
 				<div class="col_1_of_4 span_1_of_4">
-					<img src="images/vu-1.jpg" alt="" style="width: 287px; height : 150px;"/>
+					<img src="images/vu-1.jpg" alt="" style="width: 100%; height : 150px;"/>
 					<div class="grid_desc">
 						<p class="title">VULCAN</p>
 					</div>

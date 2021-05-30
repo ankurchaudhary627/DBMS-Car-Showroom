@@ -30,11 +30,7 @@ session_start();
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.lightbox.js"></script>
 <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
-				  	<script type="text/javascript">
-				    $(function() {
-				        $('.gallery-grid a').lightBox();
-				    });
-				    </script>
+
 </head>
 <body>
 <div class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -84,36 +80,36 @@ session_start();
 		<div class="main-box">
 				<div class="gallery-grids">
 		          		<div class="gallery-grid">
-							<a href="images/Chevrolet.jpg"><img src="images/Chevrolet.jpg" alt="" style="width: 375px; height: 210px;"></a>
+							<a href="chervolet.php"><img src="images/Chevrolet.jpg" alt="" style="width: 375px; height: 210px; margin-bottom:5px"></a>
 						</div>
 						
 						<div class="gallery-grid">
-							<a href="images/bmw.jpg"><img src="images/bmw.jpg" alt="" style="width: 375px; height: 210px;"></a>
+							<a href="bmw.php"><img src="images/bmw.jpg" alt="" style="width: 375px; height: 210px;"></a>
 						</div>
 						
 						<div class="gallery-grid">
-							<a href="images/audi.jpg"><img src="images/audi.jpg" alt="" style="width: 375px; height: 210px;"></a>
+							<a href="audi.php"><img src="images/audi.jpg" alt="" style="width: 375px; height: 210px;"></a>
 						</div>
 						
 						
 						
 					</div>
 					
-					
-					
+
+
 					<div class="container">
-                          <div class="row"> 
+                          <div class="row">
 
                             <div class="col-sm-4">
-                                <a href="chervolet.php"><h3>Chevrolet</h3></a>
+                                <a style="color:white"><h3>.</h3></a>
                             </div>
 
                             <div class="col-sm-4">
-                                <a href="bmw.php"><h3>BMW</h3></a>
+                                <a style="color:white"><h3>.</h3></a>
                             </div>
 
                             <div class="col-sm-4">
-                                <a href="audi.php"><h3>Audi</h3></a>     
+                                <a style="color:white"><h3>.</h3></a>
                             </div>
 
                           </div>
@@ -128,38 +124,38 @@ session_start();
 					
 					 <div class="gallery-grids">
 						<div class="gallery-grid">
-							<a href="images/Toyota.jpg"><img src="images/Toyota.jpg" alt="" style="width: 375px; height: 210px;"></a>
+							<a href="toyota.php"><img src="images/Toyota.jpg" alt="" style="width: 375px; height: 210px;"></a>
 						</div>
 						
 				
 						<div class="gallery-grid">
-							<a href="images/Aston%20Martin.png"><img src="images/Aston%20Martin.png" alt="" style="width: 375px; height: 210px;"></a>
+							<a href="aston%20martin.php"><img src="images/aston.png" alt="" style="width: 375px; height: 210px;"></a>
 						</div>
 						
 						<div class="gallery-grid">
-							<a href="images/Mitsubishi.jpg"><img src="images/Mitsubishi.jpg" alt="" style="width: 375px; height: 210px;"></a>
+							<a href="mitsubishi.php"><img src="images/Mitsubishi.jpg" alt="" style="width: 375px; height: 210px;"></a>
 						</div>
 						
 						
 					</div>
 					<div class="container">
-                          <div class="row"> 
+                          <div class="row">
 
                             <div class="col-sm-4">
-                                <a href="toyota.php"><h3>Toyota</h3></a>
+                                <a style="color:white"><h3>.</h3></a>
                             </div>
 
                             <div class="col-sm-4">
-                                <a href="aston%20martin.php"><h3>Aston Martin</h3></a>
+                                <a style="color:white"><h3>.</h3></a>
                             </div>
 
                             <div class="col-sm-4">
-                                <a href="mitsubishi.php"><h3>Mitsubishi</h3></a>       
+                                <a style="color:white"><h3>.</h3></a>
                             </div>
 
                           </div>
                     </div>
-                    
+
                     <br><br><br>
 					
 					
