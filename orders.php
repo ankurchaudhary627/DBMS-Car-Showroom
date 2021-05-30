@@ -15,13 +15,27 @@ if(!isset($_SESSION["s_name"]))
 <!DOCTYPE HTML>
 <html>
 <head>
-<title></title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+	<title></title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Free Website Template" name="keywords">
+	<meta content="Free Website Template" name="description">
+
+	<!-- Template Stylesheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/header.css" rel="stylesheet" type="text/css" media="all" />
+
+	<!-- CSS Libraries -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+	<link href="lib/animate/animate.min.css" rel="stylesheet">
+	<link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -37,8 +51,8 @@ if(!isset($_SESSION["s_name"]))
 
                 			<a href="indexlogin.php" class="nav-item nav-link ">Home</a>
                 			<a href="services.php" class="nav-item nav-link ">Brands</a>
-                            <a href="booking.php" class="nav-item nav-link active">Booking</a>
-                            <a href="orders.php" class="nav-item nav-link">Orders</a>
+                            <a href="booking.php" class="nav-item nav-link">Booking</a>
+                            <a href="orders.php" class="nav-item nav-link active">Orders</a>
                             <a href="logout.php" class="nav-item nav-link">Logout</a>
 			</div>
 		</div>
