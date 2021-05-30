@@ -735,8 +735,7 @@ font-size: 1.5em;
 	color:#D54F30;
 }
 .span_1_of_s {
-	width: 500px;
-	height:auto;
+	width: 46.2%;
 	margin-right:2.7%;
 	float: left;
 }
@@ -749,14 +748,14 @@ font-size: 1.5em;
 }
 /*--about--*/
 .about-topgrid1 {
-	width: 17%;
+	width: 20%;
 	float: left;
 	margin-right: 5%;
 }
 .about-topgrid1 h3 {
 	color: #180666;;
 	font-size: 24px;
-	
+	font-weight: 600;
 	border-bottom: 1px dotted #1f1e1e;
 	margin-bottom: 20px;
     margin-top: 20px;
@@ -784,7 +783,7 @@ font-size: 1.5em;
 .about-histore h3 {
 	color: #180666;;
 	font-size: 1.4em;
-	
+	font-weight: 600;
 	border-bottom: 1px dotted #1f1e1e;
 	margin-bottom: 13px;
     margin-top: 20px;
@@ -853,11 +852,19 @@ font-size: 1.5em;
 	-webkit-transition: all 300ms!important;
 	-moz-transition: all 300ms!important;
 }
+.header-bottom {
+    background-image: url("../images/about1.jpg") ;
+    background-repeat: no-repeat; 
+    background-position-x: right;
+	background-size: cover;
+	backface-visibility:initial;
+    
+}
 .heading h3 {
-	color:#180666;
+	color:#180666;;
 	font-size: 1.5em;
 	margin-bottom: 1%;
-    font-weight: 600;
+    font-weight: 800;
    
 }
 .heading p {
@@ -867,6 +874,8 @@ font-size: 1.5em;
 	line-height: 1.5em;
     width: 435px;
     text-align: justify;
+	font-weight: 400;
+	align-items:flex-start;
     
 }
 /*--services--*/
@@ -932,10 +941,7 @@ font-size: 1.5em;
 	color:#333;
 }
 .btn, .btn:active, .btn:focus {
-	background: url(../images/btn.jpg);
-	background-size: 8%;
-	background-position-x: right;
-	background-repeat: no-repeat;
+	background: url(../images/btn.png) 100% 0 no-repeat;
 	letter-spacing: -1px;
 	color: #3D3D3D;
 	line-height: 21px;
@@ -963,11 +969,8 @@ font-size: 1.5em;
 	-ms-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 	color: #3D3D3D;
-	background: url(../images/btn.jpg) ;
-	background-size: 5%;
-	background-position-x: right;
-	background-repeat: no-repeat;
-	color: #180666;
+	background: url(../images/btn.png) 95% 0 no-repeat;
+	color: #BC080A;
 }
 .category{
 	margin-right: 37px;
@@ -975,7 +978,7 @@ font-size: 1.5em;
 	padding-top: 0px;
 }
 .category strong {
-	color: #180666;
+	color: #BC080A;
 	display: block;
 	padding: 8px 0;
 	margin-right: 5px;
@@ -1016,22 +1019,16 @@ font-size: 1.5em;
 	display: block;
 	float:left;
 	
-	
 }
 	
 .span_2_of_contact {
 	width: 400px;
 	border-color: #180666;
-	border-width: 5px;
-	border-radius: 5px;
 }
 .span_1_of_3 {
 	width: 150px;
 	padding:1.5%; 
 }
-
-
-
 .contact-form{
 	
 	position:relative;
@@ -1069,7 +1066,7 @@ font-size: 1.5em;
 	padding:7px 20px;
 	color:#FFF;
 	cursor:pointer;
-	background:#180666;
+	background:#180666; 
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);

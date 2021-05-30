@@ -17,7 +17,9 @@ session_start();
 
 
 <body>
+
 <?php include 'header.php';?>
+
 
 <div class="main-content">
 	<div class="wrap">

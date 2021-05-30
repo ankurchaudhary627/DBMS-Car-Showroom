@@ -42,6 +42,7 @@
 		<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
 			<div class="navbar-nav ml-auto">
 
+
                 			<a href="indexlogin.php" class="nav-item nav-link active">Home</a>
                 			<a href="about.html" class="nav-item nav-link active">About</a>
                             <a href="services.php" class="nav-item nav-link">Brands</a>
@@ -61,8 +62,6 @@
 		</div>
 	</div>
 </div>
-
-
 
 
 <div class="main-content">

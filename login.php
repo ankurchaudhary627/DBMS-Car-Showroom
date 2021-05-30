@@ -3,11 +3,11 @@ session_start();
 
 if(isset($_POST["login"])){
 
-if(!empty($_POST['useremail']) && !empty($_POST['pass'])) {
+if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
     
-	$useremail=$_POST['useremail'];
-	$pass=$_POST['pass'];
-    $db = mysqli_connect("localhost","root","root","car_showroom");
+	$useremail=$_POST['your_email'];
+	$pass=$_POST['psw'];
+    $db = mysqli_connect("localhost:3307","root","","car_showroom");
     
 	$query=mysqli_query($db,"SELECT * FROM customer WHERE email= '".$useremail."' AND pass='".$pass."'");
     
@@ -53,12 +53,10 @@ if(!empty($_POST['useremail']) && !empty($_POST['pass'])) {
 
 
 
-
-
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="utf-8">
 	<title></title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -66,7 +64,7 @@ if(!empty($_POST['useremail']) && !empty($_POST['pass'])) {
 	<meta content="Free Website Template" name="description">
 
 	<!-- Template Stylesheet -->
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/style_log.css"/>
 	<link href="css/header.css" rel="stylesheet" type="text/css" media="all" />
 
 	<!-- CSS Libraries -->
@@ -80,8 +78,18 @@ if(!empty($_POST['useremail']) && !empty($_POST['pass'])) {
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    
+    	
+
+
+	<link rel="stylesheet" type="text/css" href="css/roboto-font.css">
+
+	<!-- Jquery -->
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+	<!-- Main Style Css -->
+    
 </head>
-<body>
+<body class="form-v2">
 
 <div class="navbar navbar-expand-lg bg-dark navbar-dark">
 	<div class="container-fluid">
@@ -112,60 +120,39 @@ if(!empty($_POST['useremail']) && !empty($_POST['pass'])) {
 		</div>
 	</div>
 </div>
-<div class="header-bottom">
-	<div class="wrap">
-		<div class="page-not-found">
-		<div class="text-center">
-          <h2>SIGN IN
-          </h2>
-        </div>
-      
-        <div class="container-fluid row">
-          
-            <div class="col-md-3"></div>
-          
-      
-          <div class="col-md-6">
-        <form class="text-center" action="login.php" method="post" >            
-            <div ><br/>
-               <label>Email</label>
-      <input type="text" class="form-control transparent-input" size="50" placeholder="YOUR EMAIL" name="useremail" required >
-             </div>
- 
-            <div ><br/>
-               <label>PASSWORD</label>
-      <input type="password" class="form-control transparent-input" size="50" placeholder="PASSWORD PLEASE" name="pass" required >
-             </div> 
-            <div><br/>
-                <button type="submit" class="btn btn-warning" value="login" name="login">Sign in</button>
-             </div>
-         </form>     
-          </div>
-          
-            <div class="col-md-3"></div>
-        
-        </div> 
+	<div class="page-content">
+		<div class="form-v2-content">
+			<div class="form-left">
+				<img src="images/login.jpg" alt="form">
+			</div>
+			<form class="form-detail" action="#" method="post" id="myform">
+				<h2>SIGN IN</h2>
+				
+				<div class="form-row">
+					<label for="your_email">Your Email:</label>
+					<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+				</div>
+								
+				<div class="form-row">
+					<label for="password">Password:</label>
+					<input type="password" id="psw" name="psw" class="input-text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+
+				
+				<div class="form-row-last">
+					<input href="home.php" type="submit" name="login" class="register" value="Sign In">
+				</div>
+			</form>
 		</div>
 	</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
+    </div> 
 
 
 <?php include "./footer.html"?>
 
-</body>
-</html>
 
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
     	
     	
             
