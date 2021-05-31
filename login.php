@@ -116,7 +116,7 @@ if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
 		<div class="form-v2-content" style="border: 5px inset grey; border-radius:9px">
 
 			<form class="form-detail" action="#" method="post" id="myform">
-				<h2>SIGN IN</h2>
+				<h2>LOGIN</h2>
 				
 				<div class="form-row">
 					<label for="your_email">Your Email:</label>

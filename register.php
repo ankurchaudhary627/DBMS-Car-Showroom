@@ -76,7 +76,7 @@
 	font-size: 13px;
 }	
 .modal-confirm .icon-box {
-	color: #fff;		
+	color: #fff;
 	position: absolute;
 	margin: 0 auto;
 	left: 0;
@@ -140,38 +140,28 @@
 		</div>
 	</div>
 </div>
-<div class="main">
-	<div class="content-box1">
-		<div class="wrap">
-			<div class="banner2">
 
-			</div>
-		</div>
-	</div>
-</div>
 
-	<div class="page-content">
-		<div class="form-v2-content">
-			<div class="form-left">
-				<img src="images/reg.jpg" alt="form">
-			</div>
+	<div class="page-content" style = "width:35%; margin:10px 20px 10px 180px;">
+		<div class="form-v2-content" style="border: 5px inset grey; border-radius:9px; height:60% ; margin-bottom:20px;">
+
 			<form class="form-detail" action="#" method="post" id="myform">
-				<h2>Registration Form</h2>
+				<h2>REGISTER</h2>
 				<div class="form-row">
 					<label for="full-name">Full Name:</label>
 					<input type="text" name="full_name" id="full_name" class="input-text" placeholder="ex: Lindsey Wilson">
 				</div>
 				<div class="form-row">
 					<label for="your_email">Your Email:</label>
-					<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+					<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="support@autoexpress.com">
 				</div>
 				<div class="form-row">
 					<label for="address">Address:</label>
-					<input type="text" name="address" id="address" class="input-text" required>
+					<input type="text" name="address" id="address" class="input-text" required >
 				</div>
 				<div class="form-row">
 					<label for="phone">Phone Number:</label>
-					<input type="tel" id="phone" name="phone" class="input-text" pattern="[0-9]{10}" required>
+					<input type="tel" id="phone" name="phone" class="input-text" pattern="[0-9]{10}" required >
 				</div>
 				<div class="form-row">
 					<label for="password">Password:</label>
@@ -210,6 +200,8 @@
 			</form>
 		</div>
 	</div>
+				<img src="./images/register_car.png" height="100%" width="62%" style="position:absolute; left:650px ; top:150px">
+
 	
 <?php include "./footer.html"?>
 

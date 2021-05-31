@@ -4,8 +4,6 @@ body {
 .page-content {
 	width: 100%;
     height: max-content;
-	margin:  0 auto;
-	background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 	display: -webkit-flex;
@@ -21,7 +19,6 @@ body {
 	-webkit-align-items: center;
 }
 .form-v2-content  {
-	background: rgb(134, 186, 235);
 	width: 750px;
 	height: 825px;
 	border-color: rgb(5, 44, 83);
@@ -31,7 +28,7 @@ body {
 	-ms-border-radius: 15px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
-	margin: 50px 0px;
+	margin: 50px 0px 40px 100px;
 	position: relative;
 	display: flex;
 	display: -webkit-flex;
@@ -49,15 +46,15 @@ body {
 }
 
 .form-v2-content .form-detail {
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px 2px 40px;
 	position: relative;
 	width: 100%;
 }
 .form-v2-content .form-detail h2 {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	color: #333;
-	font-size: 28px;
+	font-weight: 900;
+	color: #343a40;
+	font-size: 34px;
 	position: relative;
 	padding: 6px 0 0;
 	margin-bottom: 25px;
@@ -69,7 +66,7 @@ body {
 .form-v2-content .form-detail label {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	color: #666;
 	display: block;
 	margin-bottom: 10px;
@@ -137,7 +134,7 @@ body {
 }
 .form-v2-content .form-detail input {
 	width: 91%;
-    padding: 14px 15px;
+    padding: 9px 11px;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
     -o-border-radius: 5px;
@@ -191,7 +188,7 @@ body {
 
 
 .form-v2-content .form-detail .register {
-	background: #3b63ca;
+	background: #343a40;
 	border-radius: 6px;
 	-o-border-radius: 6px;
 	-ms-border-radius: 6px;
@@ -199,7 +196,7 @@ body {
 	-webkit-border-radius: 6px;
 	width: 160px;
 	border: none;
-	margin: 6px 0 75px 0px;
+	margin: 6px 0 10px 0px;
 	cursor: pointer;
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
