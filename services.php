@@ -43,12 +43,16 @@ session_start();
 		<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
 			<div class="navbar-nav ml-auto">
 			<?php
+			// $var = $_SESSION['s_name'];
+			$something = "Oh something";
 			if(isset($_SESSION['s_name'])){
 			    echo '<a href="indexlogin.php" class="nav-item nav-link">Home</a>';
 			    echo '<a href="services.php" class="nav-item nav-link active">Brands</a>';
                 echo '<a href="booking.php" class="nav-item nav-link ">Booking</a>';
                 echo '<a href="orders.php" class="nav-item nav-link ">Orders</a>';
                 echo '<a href="logout.php" class="nav-item nav-link ">Logout</a>';
+				// echo '<a href="logout.php" class="nav-item nav-link "> welcome.$something;</a>''
+				echo "<a class=\"nav-item nav-link\"> Welcome " .  $_SESSION['s_name']. " !!</a>";
 
 			} else {
 			                echo '<a href="index.php" class="nav-item nav-link">Home</a>';

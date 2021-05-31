@@ -6,7 +6,7 @@ if(!isset($_SESSION["s_name"]))
 }
 
 
-$db=mysqli_connect("localhost","root","root","car_showroom");
+$db=mysqli_connect("localhost","root","","car_showroom");
 
 // REGISTER USER
 if(isset($_POST['book'])) 
@@ -81,8 +81,19 @@ if(isset($_POST['book']))
 
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	
 	<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+	<Script>
+		function enableButton()
+{
+    var selectelem = document.getElementById('corpusname');
+    var btnelem = document.getElementById('seedoc');
+    btnelem.disabled = !selectelem.value;
+}
+
+	</Script>
 </head>
+
 <body>
 
 <div class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -100,7 +111,8 @@ if(isset($_POST['book']))
                             <a href="booking.php" class="nav-item nav-link active">Booking</a>
                             <a href="orders.php" class="nav-item nav-link">Orders</a>
                             <a href="logout.php" class="nav-item nav-link">Logout</a>
-			</div>
+							<a class="nav-item nav-link"> Welcome  <?=$_SESSION['s_name'];?> !! </a>
+						</div>
 		</div>
 	</div>
 </div>
@@ -133,61 +145,62 @@ if(isset($_POST['book']))
            <div>
                <label>Select Your Car Model</label><br>
                
-              <select name = "model" style="width:575px; height: 40px;" >
-                <option value = "">|--select car--|</option>
-                <option value = ""> </option>
+              <select name = "model" ID = 'corpusname' style="width:575px; height: 40px;" >
+                <!-- <option value = ""  selected disabled hidden >-Select a Car-</option> -->
+                <option value = "" disabled style = ' font-weight: 500'>  - Toyota -</option>
                 
                 
-				<option value = "Land Cruiser Prado">Toyota Land Cruiser Prado</option>
-				<option value = "Fortuner"> Toyota Fortuner </option>
-				<option value = "Camry"> Toyota Camry </option>
-				<option value = "Innova Crysta"> Toyota Innova Crysta </option>
-				<option value = "Etios Cross">Toyota Etios Cross</option>
+				<option value = "Land Cruiser Prado"> &nbsp;Land Cruiser Prado</option>
+				<option value = "Fortuner"> &nbsp;Fortuner </option>
+				<option value = "Camry">  &nbsp;Camry </option>
+				<option value = "Innova Crysta"> &nbsp;Innova Crysta </option>
+				<option value = "Etios Cross"> &nbsp;Etios Cross</option>
 				
-				<option value = ""> </option>
+				<option value = "" disabled style = ' font-weight: 500'> - Audi - </option>
 				
-				<option value = "R8"> Audi R8</option>
-				<option value = "Q7"> Audi Q7 </option>
-				<option value = "RS7"> Audi RS7 </option>
-				<option value = "A8">Audi A8</option>
-				<option value = "TT"> Audi TT</option>
+				<option value = "R8"> &nbsp;R8</option>
+				<option value = "Q7"> &nbsp;Q7 </option>
+				<option value = "RS7">&nbsp;RS7 </option>
+				<option value = "A8">&nbsp;A8</option>
+				<option value = "TT">  &nbsp;TT</option>
 				
-				<option value = ""> </option>
+				<option value = "" disabled style = ' font-weight: 500'> - BMW - </option>
 				
-				<option value = "M4"> BMW M4 </option>
-				<option value = "X6"> BMW X6 </option>
-				<option value = "i8">BMW i8</option>
-				<option value = "M3"> BMW M3</option>
-				<option value = "X3"> BMW X3 </option>
+				<option value = "M4"> &nbsp;M4 </option>
+				<option value = "X6">&nbsp; X6 </option>
+				<option value = "i8"> &nbsp;i8</option>
+				<option value = "M3"> &nbsp; M3</option>
+				<option value = "X3">  &nbsp;X3 </option>
 				
-				<option value = ""> </option>
+				<option value = ""disabled style = ' font-weight: 500'> - Chervolet -</option>
 				
-				<option value = "Trailblazer"> Chervolet Trailblazer </option>
-				<option value = "Cruze">Chervolet Cruze</option>
-				<option value = "Sail"> Chervolet Sail</option>
-				<option value = "Beat"> Chervolet Beat </option>
-				<option value = "Volt"> Chervolet Volt</option>
+				<option value = "Trailblazer">  &nbsp;Trailblazer </option>
+				<option value = "Cruze"> &nbsp;Cruze</option>
+				<option value = "Sail">  &nbsp;Sail</option>
+				<option value = "Beat">&nbsp;Beat </option>
+				<option value = "Volt">&nbsp;Volt</option>
 								
-				<option value = ""> </option>
+				<option value = "" disabled style = ' font-weight: 500'> - Aston - </option>
 				
-				<option value = "Db11"> Aston Martin Db11 </option>
-				<option value = "Rapide">Aston Martin Rapide</option>
-				<option value = "Vanquish"> Aston Martin Vanquish</option>
-				<option value = "Vantage"> Aston Martin Vantage</option>
-				<option value = "vulcan"> Aston Martin vulcan</option>				
-				<option value = ""> </option>
+				<option value = "Db11"> &nbsp;Martin Db11 </option>
+				<option value = "Rapide"> &nbsp;Martin Rapide</option>
+				<option value = "Vanquish">&nbsp;Martin Vanquish</option>
+				<option value = "Vantage"> &nbsp;Martin Vantage</option>
+				<option value = "vulcan">  &nbsp;vulcan</option>	
+
+				<option value = "" disabled style = ' font-weight: 500'> - Mitsubishi - </option>
 				
-				<option value = "Cedia"> Mitsubishi Cedia </option>
-				<option value = "Lancer">Mitsubishi Lancer</option>
-				<option value = "Montero"> Mitsubishi Montero</option>
-				<option value = "Outlander"> Mitsubishi Outlander </option>
-				<option value = "Pajero"> Mitsubishi Pjero</option>
-				<option value = ""> </option>
+				<option value = "Cedia">  &nbsp;Cedia </option>
+				<option value = "Lancer"> &nbsp;Lancer</option>
+				<option value = "Montero">  &nbsp;Montero</option>
+				<option value = "Outlander"> &nbsp;Outlander </option>
+				<option value = "Pajero"> &nbsp;Pjero</option>
+				<!-- <option value = "" disabled> </option> -->
 			</select>
              </div>
              
              <div><br>
-                <button type="submit" name="book" class="btn btn-warning" value="book">Book the car</button>
+                <button id = "seedoc" type="submit" name="book" class="btn btn-warning" value="book" style= 'border-width: 0'>Book the car</button>
              </div>
              
          </form>     

@@ -125,7 +125,7 @@ if(!empty($_POST['your_email']) && !empty($_POST['psw'])) {
 								
 				<div class="form-row">
 					<label for="password">Password:</label>
-					<input type="password" id="psw" name="psw" class="input-text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+					<input type="password" id="psw" name="psw" class="input-text"  required>
 
 				
 				<div class="form-row-last">

@@ -54,6 +54,7 @@ if(!isset($_SESSION["s_name"]))
                             <a href="booking.php" class="nav-item nav-link">Booking</a>
                             <a href="orders.php" class="nav-item nav-link active">Orders</a>
                             <a href="logout.php" class="nav-item nav-link">Logout</a>
+                            <a class="nav-item nav-link"> Welcome  <?=$_SESSION['s_name'];?> !! </a>
 			</div>
 		</div>
 	</div>
@@ -89,9 +90,9 @@ if(!isset($_SESSION["s_name"]))
                   <table class="table table-bordered table-responsive table-striped table-hover table-condensed text-center " >
                     <tr>
                         <th class = "text-center">SALE ID</th>
-                        <th class = "text-center">CUSTOMER ID</th>
+                        <!-- <th class = "text-center">CUSTOMER ID</th> -->
                         <th class = "text-center">CAR  MODEL</th>
-                        <th class = "text-center">DATE-TIME-OF-BOOK</th>
+                        <th class = "text-center">Booked Time</th>
                         
                        </tr>
                               <?php
@@ -117,7 +118,7 @@ if(!isset($_SESSION["s_name"]))
                                         while($row3=mysqli_fetch_assoc($getorders))
                                         {
                                                         $dbsaleid=$row3['sale_id'];
-                                                         $dbcustomerid=$row3['customer_id'];
+                                                        //  $dbcustomerid=$row3['customer_id'];
                                                         $carnumber =$row3['carmodel'];
                                                         $date=$row3['ordertime'];
                                                 
@@ -134,7 +135,7 @@ if(!isset($_SESSION["s_name"]))
 
                                                         echo "<tr>" ;
                                                             echo "<td>$dbsaleid</td>";
-                                                           echo "<td>$dbcustomerid</td>";
+                                                        //    echo "<td>$dbcustomerid</td>";
                                                            echo "<td>$dbusercarname</td>";  
                                                              echo "<td>$date</td>";
                                                             echo" </tr>";
