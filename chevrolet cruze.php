@@ -93,7 +93,7 @@ session_start();
 					   </div>
 					</div>
 						<div class="grid span_2_of_3">
-							<table class="table table-bordered table-responsive table-striped table-hover table-condensed">
+							<table class="table    table-responsive table-striped table-hover table-condensed">
                                    <thead>
                                        <tr>
                                            <th class="text-center" style="font-family: broadway; ">Economy</th>
@@ -186,10 +186,10 @@ Speaking of the present model, the facelifted Chevrolet Cruze was launched ahead
                                <?php
                                 if(isset($_SESSION['s_name']))
                                 {
-                                echo '<a href="booking.php" class="btn btn-primary" style =" padding-left: 110px;"><h3>BOOK THE CAR</h3> </a>';
+                                echo '<a href="booking.php" class="btn btn-primary" style =" padding-left: 10px;"><h3>BOOK THE CAR</h3> </a>';
                                 }else
                                 {
-                                  echo '<a href="login.php" class="btn btn-primary" style =" padding-left: 110px;"><h3>BOOK THE CAR</h3> </a>';  
+                                  echo '<a href="login.php" class="btn btn-primary" style =" padding-left: 10px;"><h3>BOOK THE CAR</h3> </a>';
                                 }
                                 ?>
                             </div>

@@ -36,7 +36,7 @@
 #products .next,#products .prev {
 	position:absolute;
 	top:90px;
-	left:5px;
+	left:-29px;
 	width:21px;
 	height:0;
 	padding-top:21px;
@@ -49,7 +49,7 @@
 }
 
 #products .next {
-	left:558px;
+	left:508px;
 	background:url(../images/arrow-next.png);
 }
 

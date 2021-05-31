@@ -1350,14 +1350,6 @@ pre {
 .table-sm td {
   padding: 0.3rem; }
 
-.table-bordered {
-  border: 1px solid #dee2e6; }
-  .table-bordered th,
-  .table-bordered td {
-    border: 1px solid #dee2e6; }
-  .table-bordered thead th,
-  .table-bordered thead td {
-    border-bottom-width: 2px; }
 
 .table-borderless th,
 .table-borderless td,
@@ -2073,10 +2065,11 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #343a40;
-  border-color: #555; }
+  border-color: #555;
+  text-align:center;}
   .btn-primary:hover {
     color: #fff;
-    background-color: #555;
+    background-color: #3356b0;
     border-color: #555; }
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
@@ -7926,7 +7919,10 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center !important;
+  font-size:20px;
+  margin-bottom:10px;
+  }
 
 @media (min-width: 576px) {
   .text-sm-left {

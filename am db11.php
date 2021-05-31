@@ -92,7 +92,7 @@ session_start();
 					   </div>
 					</div>
 						<div class="grid span_2_of_3">
-							<table class="table table-bordered table-responsive table-striped table-hover table-condensed">
+							<table class="table table-responsive table-striped table-hover table-condensed">
                                    <thead>
                                        <tr>
                                            <th class="text-center" style="font-family: broadway; ">Economy</th>
@@ -124,7 +124,7 @@ session_start();
                                    </tbody>
                             </table>
                             
-                            <table class="table table-bordered table-responsive table-striped table-hover table-condensed">
+                            <table class="table table-responsive table-striped table-hover table-condensed">
                                    <thead>
                                        <tr>
                                            <th class="text-center" style="font-family: broadway; ">Comfort</th>
@@ -158,7 +158,7 @@ session_start();
 						</div><div class="clear"></div> 
 					</div>
 				
-                    <table class="table table-bordered table-responsive table-striped table-hover table-condensed">
+                    <table class="table table-responsive table-striped table-hover table-condensed">
                         <thead>
                             <tr>
                                 <th class="text-center" style="font-family: broadway; ">DB11 highlights</th>
@@ -183,15 +183,15 @@ session_start();
                                <?php
                                 if(isset($_SESSION['s_name']))
                                 {
-                                echo '<a href="booking.php" class="btn btn-primary" style =" padding-left: 110px;"><h3>BOOK THE CAR</h3> </a>';
+                                echo '<a href="booking.php" class="btn btn-primary" style =" padding-left: 10px;"><h3>BOOK THE CAR</h3> </a>';
                                 }else
                                 {
-                                  echo '<a href="login.php" class="btn btn-primary" style =" padding-left: 110px;"><h3>BOOK THE CAR</h3> </a>';
+                                  echo '<a href="login.php" class="btn btn-primary" style =" padding-left: 10px;"><h3>BOOK THE CAR</h3> </a>';
                                 }
                                 ?>
                             </div>
 
-                            <div class="col-sm-4">       
+                            <div class="col-sm-4">
                             </div>
 
                           </div>

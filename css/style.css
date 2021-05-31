@@ -40,8 +40,8 @@ body{
 	width:80%;
 	margin:0 auto;
 	-moz-transition:all .2s linear;
-	-webkit-transition:all .2s linear; 
-	-o-transition:all .2s linear; 
+	-webkit-transition:all .2s linear;
+	-o-transition:all .2s linear;
 	-ms-transition:all .2s linear;
 }
 .header{
@@ -591,7 +591,7 @@ p.txt_4 {
 }
 .grid {
 	display: block;
-	float: left;
+	float: right;
 }
 .images_3_of_1 {
 	width: 30.2%;
@@ -934,7 +934,6 @@ font-size: 1.5em;
 	color:#333;
 }
 .btn, .btn:active, .btn:focus {
-	background: url(../images/btn.jpg);
 	background-size: 8%;
 	background-position-x: right;
 	background-repeat: no-repeat;
@@ -947,7 +946,7 @@ font-size: 1.5em;
 	box-shadow: none;
 	text-shadow: none;
 	text-decoration: none;
-	border-radius: 0px;
+	border-radius: 9px;
 	border: none;
 	font-size: 19px;
 	text-transform: uppercase;
@@ -965,7 +964,6 @@ font-size: 1.5em;
 	-ms-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 	color: #3D3D3D;
-	background: url(../images/btn.jpg) ;
 	background-size: 5%;
 	background-position-x: right;
 	background-repeat: no-repeat;
@@ -985,6 +983,10 @@ font-size: 1.5em;
 }
 .nav-tabs > li, .nav-pills > li {
 	float: left;
+}
+
+.navbar-brand{
+height:auto;
 }
 .nav > li > a {
 	display: block;
